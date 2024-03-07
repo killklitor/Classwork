@@ -1,35 +1,26 @@
-#Задание 11. 
-#m = float(input("Введите массу"))
-#v = float(input("Введите объем"))
-#p = m / v 
-#print(p)
+#Задача 6. 
+#N = int(input("Введите число N: "))
+#i = 0
 
-#Задание 12. 
-#a = float(input())
-#b = float(input())
-#c = a + b
-#d = a - b 
-#e = a * b
-#f = a / b 
-#print(c, d, e, f)
+#while i < N:
+    #print(i)
+    #i += 1
 
-#Задание 13
-#a = float(input())
-#b = float(input())
-#c = (a + b) / 2
-#d = (a * b) ** 0.5
-#print(c,d)
+#Задача 7.
+a = float(input("Введите вещественное число a: "))
+n = 1
+s = 0
 
-#Задание 14
-#a = float(input("введите площадь"))
-#b = float(input("введите кол-во жителей"))
-#c = b / a 
-#print (c) 
+while s <= a:
+    s += 1 / n
+    n += 1
+    print(n)
+    
+#Задание 8.
+n = int(input("Введите число n: "))
+i = 1
 
-#Задание 15
-#a = float(input())
-#b = float(input())
-#с = float(input())
-#s = 2 * (a * b + b * c + c * a )
-#v - a * b * c
-#print(s,v)
+while i * i <= n:
+    i += 1
+
+print(i)
