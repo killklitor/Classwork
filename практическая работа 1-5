@@ -22,3 +22,24 @@ del mass [6:8]
 del mass [9]
 mass.sort(reverse=False)
 print(mass)
+№5
+pl=[]
+min=[]
+nul=[]
+count=0
+a=int(input('Кол-во чисел: '))
+for i in range(0,a):
+     b=int(input('Введите число: '))
+     if b<0:
+         min.append(b)
+     if b>0:
+         pl.append(b)
+     if b==0:
+         b='*'
+         nul.append(b)
+         count+=1
+min1=sum(min)
+pl1=sum(pl)/len(pl)
+print(min1)
+print(pl1)
+print('Количество звёздочек:',count, nul)
